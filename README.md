@@ -13,3 +13,8 @@ Distillation 코드
 3. 각 토큰의 빈도 수를 token_counts 파일로 저장
 4. Teacher 모델의 training configuration과 비슷한 Student 모델의 Training configuration 구성
 
+distillation parameter 조정
+layer - 1,3,6
+dim- 3072, 768, 192
+
+변경하면서 테스트 
