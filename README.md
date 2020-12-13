@@ -2,6 +2,9 @@
 
 Distillation은 딥러닝 모델의 경량화 기법
 
+설명 링크: https://medium.com/huggingface/distilbert-8cf3380435b5
+논문 링크: https://arxiv.org/abs/1910.01108
+
 대표적인 경량화 기법으로는,
 1. Pruning - 불필요한 노드를 제거
 2. Quantization - 데이터의 차원을 낮추는 방법 (24 bits 사진 -> 8 bits 사진으로 낮춤)
@@ -21,3 +24,4 @@ dim- 3072, 768, 192
 
 성능 비교 시, 단순하게 파라미터의 숫자가 많은 layer 6, dim 3072 보다
 layer 3, dim 768이 검증 정확도도 가장 높으며 동시에 속도도 상당히 빠른 것으로 나타났다.
+
