@@ -19,6 +19,8 @@
   1. Teacher Network는 정확도가 높지만 연산 비용이 높음
   2. Student Network는 빠른 추론 속도를 보이지만 정확도가 낮음
 
+가장 Tradeoff가 효율적인 파라미터를 선정 필요
+
 ### Distillation 테스트 파라미터
 
 LAYER - 1,3,6
